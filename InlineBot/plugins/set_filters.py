@@ -217,7 +217,7 @@ async def new_filter(client: CodeXBotz, message: Message):
             )
     except Exception as a:
         try:
-            await message.reply(text = f"<b>❌ Error</b>\n\n{str(a)}\n\n<i>Join @CodeXBotzSupport for Support</i>")
+            await message.reply(text = f"<b>❌ Error</b>\n\n{str(a)}\n\n<i>Join @SECLK for Support</i>")
         except:
             pass
         return
